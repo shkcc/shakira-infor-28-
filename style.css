@@ -1,0 +1,128 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #7b9e7c;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+    padding: 15px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    margin-left: 25px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(225, 206, 206);
+    font-size: 18px;
+}
+
+section {
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.home {
+    background: url(farm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:500px;
+}
+section.home div {
+    text-align: center;
+    color: rgb(174, 61, 61);
+    margin: auto;
+    width: 70%;
+    padding-top: 80px;
+    font-family: "Caveat Brush";
+    font-size: 20px;
+}
+section.home .welcome {
+    font-size: 50px;
+    font-family: "Barrio";
+}
+section.home a {
+    color:#ae7878 ;
+    font-size: 20px;
+    font-family: "Alegreya SC";
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 30px;
+}
+
+section.about {
+    background-color: #f6d772;
+    height: 600px;
+}
+
+section.product {
+    background-color: #fff0db;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(197, 223, 200);
+    border: 1px solid #af5050bc;
+    border-radius: 10px;
+    width: 1000px;
+    height: 800px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+.cardarea{
+    align-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card button {
+    background-color: rgb(127, 194, 194);
+}
+
+section.contact {
+    background-color: black;
+    height: 600px;
+}
+.card button:hover {
+    background-color: #678769;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    text-align: center;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px; 
+}
